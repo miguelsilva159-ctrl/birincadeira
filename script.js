@@ -6,6 +6,8 @@
 function principal(){
 let nome = document.getElementById("nome").value
 
+resposta.innerHTML = ''
+
 if(nome === 'geovana'){
    console.log('100%') 
    resposta.innerHTML = `100% ???`
@@ -18,29 +20,31 @@ resposta.innerHTML = `100% taix tola`
  }else if(nome === 'macaca'){
  resposta.innerHTML += `100% preta!!`
  }
- else if(nome != geovana){
+ else if(nome != "geovana"){
  
   console.log('0% NUNCA!!!')
     
  resposta.innerHTML += `0% NUNCA!!!!!!!!`
 }
-else if(nome != geo){
+else if(nome != "geo"){
  
    console.log('0% NUNCA!!!')
      
   resposta.innerHTML += `0% NUNCA!!!!!!!!`
  }
- else if(nome != olaf){
+ else if(nome != "olaf"){
  
    console.log('0% NUNCA!!!')
      
   resposta.innerHTML += `0% NUNCA!!!!!!!!`
  }
- else if(nome != macaca){
+ else if(nome != "macaca"){
  
    console.log('0% NUNCA!!!')
      
   resposta.innerHTML += `0% NUNCA!!!!!!!!`
+ }else{
+   resposta.innerHTML = `escreve direito`
  }
 
 
